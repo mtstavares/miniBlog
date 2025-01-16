@@ -4,9 +4,11 @@ import {getFirestore} from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+const apiKey = process.env.FIREBASE_API_KEY
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8KnL-GdEiEpxoyjRjxx0OzkVWSz8Pegc",
+  apiKey: apiKey,
   authDomain: "miniblog-5cf7a.firebaseapp.com",
   projectId: "miniblog-5cf7a",
   storageBucket: "miniblog-5cf7a.firebasestorage.app",
